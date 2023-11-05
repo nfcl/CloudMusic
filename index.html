@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+        />
+        <meta
+            http-equiv="X-Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+        />
+        <link href="index.css" rel="stylesheet">
+        <title>Hello from Electron renderer!</title>
+    </head>
+    <body id="container">
+        <div id="header"></div>
+        <div id="content">
+            <div id="content-left">
+                左侧内容
+            </div>
+            <div id="divide-line"></div>    
+            <div id="content-right">
+                右侧的内容
+            </div>
+        </div>
+        <div id="footer"></div>
+    </body>
+    <script src="./renderer.js"></script>
+</html>

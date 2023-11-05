@@ -1,0 +1,34 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+:root{
+    --color-primary: #ef3c3c;
+}
+#container{
+    display: grid;
+    grid-template-rows: 60px 1fr 74px;
+}
+#header{
+    -webkit-app-region: drag;
+    background-color: var(--color-primary);
+}
+#content{
+    display: grid;
+    grid-template-columns: 200px 2px 1fr;
+}
+#divide-line{
+    background: #e7e7e7;
+    cursor: w-resize;
+}
+#footer{
+    background-color: var(--color-primary);
+}

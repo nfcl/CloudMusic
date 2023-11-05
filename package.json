@@ -1,0 +1,14 @@
+{
+  "name": "cloudmusic",
+  "version": "1.0.0",
+  "description": "基于Electron的网易云音乐复刻",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "nfcl",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.0.3"
+  }
+}
